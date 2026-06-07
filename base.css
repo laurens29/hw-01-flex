@@ -1,0 +1,140 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* body{
+   font-family: "Noto Sans", sans-serif;  
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+} */
+
+/* heading字重 */
+.heading-md{
+    font-size: 28px;
+    font-weight: 700;
+}
+.heading-sm{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.heading-xs{
+    font-size: 20px;
+    font-weight: 700;
+}
+.heading-xxs{
+    font-size: 18px;
+    font-weight: 700;
+}
+.heading-xxxs{
+    font-size: 16px;
+    font-weight: 700;
+}
+.heading-xxxxs{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* label字重 */
+.label-md{
+    font-size: 16px;
+    font-weight: 500;
+}
+.label-sm{
+    font-size: 14px;
+    font-weight: 500;
+}
+.label-xs{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* paragraph字重 */
+.paragraph-md{   
+    font-size: 16px;
+    font-weight: 500;
+}
+.paragraph-sm{   
+    font-size: 14px;
+    font-weight: 500;
+}
+.paragraph-xs{   
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* 色票變數 */
+:root{
+    --color-primary-50:#FDF7F1;
+    --color-primary-100:#FDE6CF;
+    --color-primary-500:#F5B87B;
+    --color-primary-900:#24140B;
+
+    --color-neutral-0:#FFFFFF;
+    --color-neutral-500:#737373;
+    --color-neutral-700:#404040;
+    --color-neutral-900:#1E1E1E;
+
+    --color-dark-40a:rgba(0, 0, 0, 0.4);
+    --color-dark-60a:rgba(0, 0, 0, 0.6);
+    
+
+}
+
+
+/* icon匯入 */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.container{
+    width: 1328px;
+    padding: 0px 16px;
+    margin: auto;    
+}
+
+/* 格線系統設定 */
+.col-2{
+    width: calc((100% - 24px * 11) / 12 * 2 + 24px * 1);
+}
+.col-10{
+    width: calc((100% - 24px * 11) / 12 * 10 + 24px * 9);
+}
+
+/* utility class 通用設定 */
+.d-flex{
+    display: flex;
+}
+.g-12{
+    gap: 12px;
+}
+.g-24{
+    gap: 24px;
+}
+.mg-left{
+    margin-left: auto;
+}
+.mg-btm-12{
+    margin-bottom: 12px;
+}
+.mg-top-24{
+    margin-top: 24px;
+}
+.pd-r-16{
+    padding-right: 16px;
+}
+
+

@@ -1,0 +1,39 @@
+body{
+   font-family: "Noto Sans", sans-serif;  
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+
+.tab-link{
+    display: block;
+    padding: 12px 0;
+}
+.tab-item{
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.tab-item.active{
+    background-color: var(--color-primary-900);
+    color: var(--color-neutral-0);
+}
+.blog-content{
+    color: var(--color-neutral-700);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    flex: 1;  /* 防止圖片被壓縮 */
+    gap: 12px;
+}
+.col-2 a:hover{
+    background-color: var(--color-primary-900);
+    color: var(--color-neutral-0);
+}
+
+.icon{
+    align-items: center;
+}
+.text-20{
+    font-size: 20px;
+}
+
